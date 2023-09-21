@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyButton" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/button_back </item>
+    </style>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tela3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/gradient2"
+        android:id="@+id/idIVPurple"
+        />
+
+    <TextView
+        android:id="@+id/idCityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome da cidade"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="108dp"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/idEdt"
+        android:layout_below="@id/idCityName"
+        android:weightSum="5"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/idSearch"
+            android:layout_margin="10dp"
+            android:layout_weight="4.5"
+            android:background="@android:color/transparent"
+            android:hint="Search"
+            android:padding="5dp"
+            app:hintTextColor="@color/white"
+            android:textColorHint="@color/white">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idSearch2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

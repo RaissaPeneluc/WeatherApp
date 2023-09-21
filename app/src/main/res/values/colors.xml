@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue_shade_1">#50B1D0</color>
+    <color name="button_back">#FFFFFFFF</color>
+    <color name="purple_shade_1">#191970</color>
+    <color name="purple_shade_2">#483D8B</color>
+    <color name="purple_shade_3">#6959CD</color>
+    <color name="ciano_shade_1">#008080</color>
+    <color name="ciano_shade_2">#008B8B</color>
+    <color name="ciano_shade_3">#20B2AA</color>
+
+</resources>

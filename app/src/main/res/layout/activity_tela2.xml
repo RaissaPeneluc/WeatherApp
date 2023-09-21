@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tela2">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@color/white"
+        android:id="@+id/idPurple"
+        />
+
+
+    <TextView
+        android:id="@+id/NomeDaCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sua Cidade"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="135dp"
+
+        />
+
+    <ImageButton
+        android:id="@+id/HomeButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/logo_button"
+        app:srcCompat="@drawable/logo_button" />
+
+    <ImageButton
+        android:id="@+id/ConfigButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="25dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/config_azul"
+        />
+
+</RelativeLayout>
